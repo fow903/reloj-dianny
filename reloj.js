@@ -10,8 +10,8 @@ const reloj = ()=> {
         dia = fecha.getDate(),
         mes = fecha.getMonth(),
         year = fecha.getFullYear();
-
-
+    
+    console.log("klk")
     var pHoras = document.getElementById('horas'),
         pAMPM = document.getElementById('ampm'),
         pMinutos = document.getElementById('minutos'),
